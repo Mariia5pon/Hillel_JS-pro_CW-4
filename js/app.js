@@ -1,21 +1,31 @@
 function checkType() {
-   alert('Подивись в консолі (F12).')
+    alert('Подивись в консолі (F12).')
     let stringType = "Hello!";
     let numberType = 42;
     let bigintType = 1234567890123456789012345678901234567890n;
     let booleanType = true;
     let undefinedType;
-    let objectType = { name: "John", age: 30 };
+    let nullType = null;
+    let objectType = {name: "John", age: 30};
     let symbolType = Symbol("id");
-    let functionType = function myFunction() { console.log("It's a function."); };
+    let functionType = function myFunction() {
+        console.log("It's a function.");
+    };
+    let arrayType = [1, 2, 3]
 
-    console.log(typeof stringType);
-    console.log(typeof numberType);
-    console.log(typeof bigintType);
-    console.log(typeof booleanType);
-    console.log(typeof undefinedType);
-    console.log(typeof objectType);
-    console.log(typeof symbolType);
-    console.log(typeof functionType);
+    console.log('Примітивні типи даних:');
+    console.log('* тип даних string - ' + typeof stringType);
+    console.log('* тип даних number - ' + typeof numberType);
+    console.log('* тип даних bigInt - ' + typeof bigintType);
+    console.log('* тип даних boolean - ' + typeof booleanType);
+    console.log('* тип даних undefined - ' + typeof undefinedType);
+    console.log('* тип даних null - ' + typeof nullType);
+    console.log('* тип даних symbol - ' + typeof symbolType);
+
+    console.log('Об`єктні типи даних:');
+    console.log('* тип даних object - ' + typeof objectType);
+    console.log('* тип даних function - ' + typeof functionType);
+    console.log('* тип даних array - ' + typeof arrayType);
 }
+
 
