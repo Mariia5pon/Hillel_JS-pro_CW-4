@@ -30,11 +30,10 @@
 <main>
 	<section class="main-sec-1" id="sec-1">
 		<div class="main-sec-1_text">
-			<h5>3.1. List of types</h5>
-			<h1>Типи Даних у JavaScript</h1>
-			<p>Примітивні Типи Даних включають в себе числа (number), рядки (string), булеві
-				значення (boolean), null, undefined, BigInt та Symbol.</p>
-			<p>Об'єктні Типи Даних включають в себе об'єкти (object), масиви (array), функції (function) та інші. </p>
+			<h1>3.1. List of types</h1>
+			<h4>Створити репозиторій із файлом index.html.</h4>
+			<h4>Додати туди невеликий скрипт, мета якого – вивести всі відомі вам типи даних у консоль. Використовуючи
+				оператор typeof та console.log</h4>
 			<button type="button" class="btn" onclick="checkType()">Show me</button>
 		</div>
 	</section>
@@ -42,7 +41,8 @@
 		<div class="main-sec-2_content container">
 			<div class="main-sec-2_text">
 				<h2>3.2. Numbers and Strings</h2>
-				<h4>Отримати від користувача 3 рядки та вивести їх у довільному порядку однією командою (шаблонні рядки).</h4>
+				<h4>Отримати від користувача 3 рядки та вивести їх у довільному порядку однією командою (шаблонні
+					рядки).</h4>
 			</div>
 			<div class="sec-2_flex">
 				<div class="sec-2_left">
@@ -60,11 +60,25 @@
 					<p id="output"></p>
 				</div>
 			</div>
-			
-			
+		
+		
 		</div>
 	</section>
-	
+	<section class="main-sec-3" id="sec-3">
+		<div class="main-sec-3_content container">
+			<div class="main-sec-3_text">
+				<h2>3.3. Decompose a five-digit number</h2>
+				<h4>Розкласти за цифрами п'ятизначне число і вивести у вихідному порядку через пробіл.</h4>
+				<h4>Приклад:</h4>
+				<h4>10369 -> 1 0 3 6 9</h4>
+			</div>
+			<div class="sec-3_left">
+				<h4>Введіть п'ятизначне число:</h4>
+				<input type="text" id="input5">
+				<button onclick="displayNumbers()" class="btn">Розкласти</button>
+			</div>
+		</div>
+	</section>
 </main>
 <footer></footer>
 <script src="./js/app.js"></script>

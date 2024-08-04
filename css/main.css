@@ -123,15 +123,6 @@ a:hover {
     text-shadow: 2px 10px 5px var(--white);
 }
 
-ul li {
-    color: var(--white);
-    font-size: 13px;
-    font-style: normal;
-    line-height: 20px;
-    list-style: none;
-    margin: 10px 0 0;
-}
-
 main {
     margin-top: 90px;
 }
@@ -152,8 +143,7 @@ main {
     margin: 0 auto;
 }
 
-.main-sec-1_text p {
-    line-height: 20px;
+.main-sec-1_text h4 {
     margin-bottom: 20px;
 }
 
@@ -222,4 +212,23 @@ input {
 
 input:hover {
     border: blueviolet solid 5px;
+}
+
+.main-sec-3 {
+    margin-top: 200px;
+    background: url("../img/sec-3.jpg") no-repeat center center / cover;
+    height: 900px;
+    max-width: 100%;
+}
+
+.main-sec-3_text {
+    max-width: 580px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+.sec-3_left {
+    margin-top: 100px;
 }
