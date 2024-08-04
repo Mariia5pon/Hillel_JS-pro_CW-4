@@ -28,4 +28,17 @@ function checkType() {
     console.log('* тип даних array - ' + typeof arrayType);
 }
 
+function displayStrings() {
+    const hidden = document.getElementById('hidden');
+    hidden.hidden = !hidden.hidden;
+
+    const input1 = document.getElementById('input1').value;
+    const input2 = document.getElementById('input2').value;
+    const input3 = document.getElementById('input3').value;
+
+    const outputString = `${input3} - ${input1} - ${input2}`;
+
+    const outputField = document.getElementById('output');
+    outputField.textContent = outputString;
+}
 
