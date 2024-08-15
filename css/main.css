@@ -199,7 +199,7 @@ main {
 }
 
 .sec-2_left label, input {
-margin: 10px 0;
+    margin: 10px 0;
 }
 
 input {
@@ -225,10 +225,73 @@ input:hover {
     max-width: 580px;
     text-align: center;
     padding-bottom: 10px;
-    padding-top: 150px;
+    padding-top: 270px;
     margin: 0 auto;
 }
 
 .sec-3_left {
     margin-top: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.main-sec-4 {
+    margin-top: 200px;
+    background: url("../img/sec-4.jpg") no-repeat center center / cover;
+    height: 900px;
+    max-width: 100%;
+}
+
+.main-sec-4_text {
+    max-width: 580px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 300px;
+    margin: 0 auto;
+}
+
+.main-sec-4_text .btn {
+    margin-top: 20px;
+}
+
+.main-sec-5 {
+    margin-top: 200px;
+    background: url("../img/sec-5.jpg") no-repeat center center / cover;
+    height: 900px;
+    max-width: 100%;
+}
+
+.main-sec-5_text {
+    max-width: 580px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 320px;
+    margin: 0 auto;
+}
+
+.main-sec-5_content .btn {
+    left: 550px;
+    top: 20px;
+}
+
+.main-sec-6 {
+    margin-top: 200px;
+    background: url("../img/sec-6.jpg") no-repeat center center / cover;
+    height: 900px;
+    max-width: 100%;
+}
+
+.main-sec-6_text {
+    max-width: 580px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 320px;
+    margin: 0 auto;
+}
+
+.main-sec-6_content .btn {
+    left: 550px;
+    top: 20px;
 }
